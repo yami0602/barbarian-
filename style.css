@@ -1,0 +1,62 @@
+body {
+    background: #000;
+}
+
+.fig{
+    background: url("Animations/Attack/Attack- Spritesheet.png") no-repeat;
+    width: 1201px;
+    height: 801px;
+    position: absolute;
+    animation: attack1 1s steps(4) infinite, attack2 1s steps(6) infinite;
+
+}
+
+@keyframes attack1 {
+    0% {
+        background-position: 0 0;
+    }
+
+    16.666666% {
+        background-position: -4804px  0px;
+    }
+
+    16.666667% {
+        background-position: 0  -801px;
+    }
+
+    33.333333% {
+        background-position: -4804px  -801px;
+    }
+
+    33.333334% {
+        background-position: 0  -1602px;
+    }
+
+    49.999999% {
+        background-position: -4804px  -1602px;
+    }
+
+    50.000000% {
+        background-position: 0 -2403px;
+    }
+
+    66.666666% {
+        background-position: -4804px -2403px;
+    }
+
+    66.666667% {
+        background-position: 0 -3204px;
+    }
+
+    83.333333% {
+        background-position: -4804px -3204px;
+    }
+
+    83.333334% {
+        background-position: 0 -4005px;
+    }
+
+    100% {
+         background-position: -4804px  -4005px;
+    }
+}
